@@ -1,0 +1,48 @@
+".container": {
+	backgroundColor:"white"
+},
+"#tileContainer" : {
+    layout:"horizontal",
+    height:Ti.UI.FILL,
+    width:960,    
+    left:0
+},
+"#puzzleImage" : {
+    backgroundImage:"bg.jpg",
+    visible:false,
+    height:768,
+    width:1024, 
+    left:0
+},
+"#menu" : {
+    backgroundColor:"white",
+    width:64,
+    right:0,
+    top:0,
+    bottom:0,
+    borderWidth:1,
+    borderColor:"blue"
+},
+"#next" : {
+    bottom:0, 
+    right:0, 
+    widht:64,
+    height:64,
+    title:"Next",
+    visible:false
+},
+"#reset" : {
+    top:0, 
+    right:0, 
+    widht:64,
+    height:64,
+    title:"Reset"
+},
+"#setup" : {
+    top:64, 
+    right:0, 
+    widht:64,
+    height:64,
+    title:"Setup",
+    visible:false
+}

@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="main" onLongpress="removeClick">
+		<View id="background">
+			<View id="container" class="container" onClick="tileClick">
+				<Label id="title"/>
+				<Label id="answer"/>
+			</View>
+		</View>
+	</View>
+</Alloy>

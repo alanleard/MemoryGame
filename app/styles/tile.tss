@@ -1,0 +1,31 @@
+"#main" :{
+    height:192,
+    width:192,
+},
+"#container": {
+    borderColor:"blue",
+    borderWidth:2,
+    backgroundColor:"white"
+},
+"#background" : {
+
+    backgroundColor:"white"
+}
+"#title" : {
+    visible:true,
+    font:{fontSize:32},
+    textAlign:"center",
+    backgroundColor:"white",
+    height:"100%",
+    width:"100%"
+},
+"#answer" : {
+    visible:false,
+    backgroundColor:"blue",
+    font:{fontSize:24},
+    color:"white",
+    textAlign:"center",
+    height:"100%",
+    width:"100%"
+}
+

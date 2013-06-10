@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container">
+		<View id="puzzleImage"/>
+		<View id="tileContainer"/>,
+		<View id="menu">
+			<Button id="next" onClick="next"/>
+			<Button id="reset" onClick="reset"/>
+			<Button id="setup" onClick="setup"/>
+		</View>
+	</Window>
+</Alloy>
